@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.showlist_container{
+    background-color: black;
+    padding: 3rem 0;
+    color: white;
+}
+.showlist_container h1{
+    text-align: center;
+}
+.product_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.product_container .product_card{
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    gap: .7rem;
+    margin: 1.5rem;
+    box-shadow: rgba(104, 206, 60, 0.25) 0px 2px 20px, rgba(103, 210, 37, 0.12) 0px -6px 10px, rgba(118, 225, 69, 0.12) 0px 4px 6px, rgba(184, 222, 68, 0.17) 0px 12px 13px, rgba(96, 236, 41, 0.09) 4px -3px 5px;
+}
+.product_container .product_card img {
+    width: 100%;
+    max-height: 350px;
+}

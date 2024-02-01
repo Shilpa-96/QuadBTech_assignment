@@ -1,0 +1,51 @@
+
+.showDetails_container h2{ 
+    color: red;
+    text-align: center;
+}
+
+.showDetails_container p{
+font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    min-width: 300px;
+    width: 60%;
+    margin: auto;
+}
+.showDetails_container .click_ticket{
+    border: none;
+    background-color: white;
+    outline: none;
+    margin: 10% 40% ;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color: blue;
+}
+form{
+    margin: 4rem 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+input{
+    font-size: 1.3rem;
+    padding-left: .2rem;
+    margin-left: .4rem;
+}
+button[type="submit"]{
+    padding: .4rem;
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: transform .3s;
+}
+button[type="submit"]:hover{
+    transform: scale(1.2);
+}
